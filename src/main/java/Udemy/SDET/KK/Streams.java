@@ -24,6 +24,8 @@ public class Streams {
 		nombres.add("Alekya");
 		nombres.add("Don");
 		
+		// Hola
+		
 		List<String> nombres2 = Arrays.asList("Abhijeetxx", "Ramxx", "Adamxx", "Alekyaxx", "Donxx");
 		
 		long total = nombres.stream().filter(s->s.startsWith("A")).count();
