@@ -4,7 +4,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-// M1000
+// M1000 Ya hecho
 
 /**
  * Unit test for simple App.
