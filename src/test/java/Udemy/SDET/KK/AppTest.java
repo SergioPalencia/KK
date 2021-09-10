@@ -4,6 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+// M1000
+
 /**
  * Unit test for simple App.
  */
