@@ -1,0 +1,42 @@
+pipeline
+{
+	agent any
+	stages 
+	{
+		stage('Build')
+		{
+			steps 
+			{
+				bat "mvn compile"
+			}
+		}
+		stage('Deploy')
+		{
+			steps
+			{
+				echo 'Deploying de code'
+			}
+		}
+		stage('Testing')
+		{
+			steps
+			{
+				bat "mvn test"
+			}
+		}
+		stage('Unit testing')
+		{
+			steps
+			{
+				bat "mvn compile"
+			}
+		}
+		stage('Release')
+		{
+			steps
+			{
+				echo 'Realasing the project'
+			}
+		}
+	}
+}
